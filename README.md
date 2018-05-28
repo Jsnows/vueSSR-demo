@@ -1,5 +1,7 @@
 ## 安装&使用
 ```
+git clone https://github.com/Jsnows/vueSSR-demo.git
+
 npm install
 or
 yarn install
