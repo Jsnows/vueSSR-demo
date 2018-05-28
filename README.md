@@ -1,3 +1,18 @@
+## 安装&使用
+```
+npm install
+or
+yarn install
+
+// 调试
+npm run dev
+
+// 生产
+npm run build
+npm run start
+
+```
+
 ## 一、为什么要用vueSSR
 ### `vueSSR`对比`静态vueSPA`优势
 - 更好的SEO
