@@ -1,0 +1,125 @@
+.head-bar{
+    background-color: #fff;
+    box-shadow:0px 1px 1px #888888;
+    border-top:5px solid #484848;
+}
+.head-bar .item{
+    font-size:18px;
+    padding: 14px;
+}
+.content{
+    transition: ease 1s;
+}
+.content .title,.desc,.tag{
+    font-size: 20px;
+    color:#444;
+}
+.content .title{
+    /*height:47px;*/
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    display: block;
+}
+.content .title:hover{
+    color:#30aec9;
+}
+.content .desc{
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    margin:10px 0 10px;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
+*{
+    -webkit-tap-highlight-color:transparent;
+}
+.textarea{
+    overflow:auto;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    border-style:solid;
+    border-color:#FFFFFF;
+    border-radius: 5px;
+    float:left;
+    width:100%;
+    height:100%;
+    overflow:auto;
+    outline:none;
+    resize:none;
+    margin: 0 2px;
+    padding:10px;
+    background-color:#e1d2b2;
+    color:#4d4d4d;
+}
+.div{
+    float:left;
+    width:100%;
+    height:100%;
+    margin: 0 2px;
+    padding:10px;
+    overflow:auto;
+}
+.showDiv{
+    position:absolute;
+    top:0px;
+    left:0px;
+    background-color:#fff;
+    padding:10px;
+    overflow:auto;
+    padding-left:20px;
+    height:0%;
+    width:0%;
+    transition:ease .5s;
+}
+.trans{
+    height:100%;
+    width:100%;
+}
+.button{
+    color:#fff;
+}
+pre{border:1px solid #a9a9a9; border-radius: 5px; padding:20px;}
+pre {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  overflow: auto;
+  -ms-overflow-style: scrollbar;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+code {
+  font-size: 87.5%;
+  color: #e83e8c;
+  word-break: break-word;
+}
+pre {
+  display: block;
+  font-size: 87.5%;
+  color: #363636;
+}
+pre code {
+  font-size: inherit;
+  color: inherit;
+  word-break: normal;
+}
+p{
+    margin-bottom: 10px;
+    text-indent:2rem;
+}
+table{
+    width: 100%;
+}
+th,tr,td{
+    text-align:center;
+    border:1px solid #000;
+}
+h1,h2,h3,h4,h5,h6{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
